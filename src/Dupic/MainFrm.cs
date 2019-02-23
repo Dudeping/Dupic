@@ -15,11 +15,11 @@ using System.Windows.Forms;
 
 namespace picdowload
 {
-    public partial class Form1 : Form
+    public partial class MainFrm : Form
     {
         private string destDir; //目标文件夹
         private Thread thread;
-        public Form1()
+        public MainFrm()
         {
             InitializeComponent();
             btnStop.Enabled = false;

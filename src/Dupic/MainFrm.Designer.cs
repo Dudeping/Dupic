@@ -1,6 +1,6 @@
 ﻿namespace picdowload
 {
-    partial class Form1
+    partial class MainFrm
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -143,7 +143,7 @@
             this.txtLog.Size = new System.Drawing.Size(370, 192);
             this.txtLog.TabIndex = 10;
             // 
-            // Form1
+            // MainFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -159,8 +159,8 @@
             this.Controls.Add(this.txtKeyWords);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MainFrm";
+            this.Text = "百度图片下载器";
             ((System.ComponentModel.ISupportInitialize)(this.numPageCount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
